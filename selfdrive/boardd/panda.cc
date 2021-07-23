@@ -223,7 +223,7 @@ uint16_t Panda::get_fan_speed() {
 }
 
 void Panda::set_ir_pwr(uint16_t ir_pwr) {
-  usb_write(0xb0, ir_pwr, 0);
+  // usb_write(0xb0, ir_pwr, 0);
 }
 
 health_t Panda::get_state() {
